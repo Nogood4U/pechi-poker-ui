@@ -1,0 +1,159 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "GameButtons",
+    "sceneWidth": 520,
+    "sceneHeight": 100,
+    "generateOnSave": true,
+    "enableStepping": true,
+    "stepWidth": 8,
+    "stepHeight": 8,
+    "lang": "JAVA_SCRIPT_6",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "f6554bb5-58d8-4743-bc5c-d7d2b73aabae",
+    "info": {
+      "editorName": "GameButtons",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "c56d6c26-d859-4f2a-a0c4-1779764a3944",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "button",
+              "id": "6eaa1d79-6155-49b4-9329-4961f6267fdd",
+              "asset": "0",
+              "info": {
+                "editorName": "grey_button121_png",
+                "x": 8,
+                "y": 24,
+                "scale.x": 2.5,
+                "scale.y": 0.8,
+                "overFrame": "grey_button07.png",
+                "downFrame": "grey_button11.png"
+              }
+            },
+            {
+              "type": "text",
+              "id": "eeb0b922-a115-48f7-85c7-687f0fe9ac47",
+              "info": {
+                "editorName": "text5",
+                "x": 40,
+                "y": 32,
+                "text": "Retirar"
+              }
+            },
+            {
+              "type": "button",
+              "id": "ef180482-0122-4c98-bc12-424ce331e3e7",
+              "asset": "0",
+              "info": {
+                "editorName": "grey_button122_png",
+                "x": 136,
+                "y": 24,
+                "scale.x": 2.5,
+                "scale.y": 0.8,
+                "overFrame": "grey_button07.png",
+                "downFrame": "grey_button11.png"
+              }
+            },
+            {
+              "type": "text",
+              "id": "35fea2ce-67bf-4e5f-97bd-585eb28d9092",
+              "info": {
+                "editorName": "text4",
+                "x": 176,
+                "y": 32,
+                "text": "Pass"
+              }
+            },
+            {
+              "type": "button",
+              "id": "48d204f6-17d2-4d5a-8ade-0f78be6fb8d6",
+              "asset": "0",
+              "info": {
+                "editorName": "grey_button123_png",
+                "x": 264,
+                "y": 24,
+                "scale.x": 2.5,
+                "scale.y": 0.8,
+                "callback": "()=>this.state.doBet(4,playersArr)",
+                "overFrame": "grey_button07.png",
+                "downFrame": "grey_button11.png"
+              }
+            },
+            {
+              "type": "text",
+              "id": "5ace3cc8-62dd-4b0c-9012-9dadc18718a4",
+              "info": {
+                "editorName": "text3",
+                "x": 296,
+                "y": 32,
+                "text": "Igualo"
+              }
+            },
+            {
+              "type": "button",
+              "id": "917e4598-67fc-4497-bcce-735040f9ca8e",
+              "asset": "0",
+              "info": {
+                "editorName": "grey_button124_png",
+                "x": 392,
+                "y": 24,
+                "scale.x": 2.5,
+                "scale.y": 0.8,
+                "overFrame": "grey_button07.png",
+                "downFrame": "grey_button11.png"
+              }
+            },
+            {
+              "type": "text",
+              "id": "d509b71f-d528-4b51-b73e-5a8555f747bc",
+              "info": {
+                "editorName": "text2",
+                "x": 424,
+                "y": 32,
+                "text": "Subo"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "atlas",
+    "asset": "buttons",
+    "sprite": "grey_button12.png"
+  }},
+  "prefab-table": {}
+}

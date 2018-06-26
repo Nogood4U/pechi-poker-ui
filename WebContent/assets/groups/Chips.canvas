@@ -1,0 +1,125 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Chips",
+    "sceneWidth": 160,
+    "sceneHeight": 50,
+    "generateOnSave": true,
+    "enableStepping": true,
+    "stepWidth": 4,
+    "stepHeight": 4,
+    "lang": "JAVA_SCRIPT_6",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "533cd847-33eb-4fe3-b540-7d90d7b3c87f",
+    "info": {
+      "editorName": "Chips",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "a1f8bae4-a849-4c34-b4ad-e5b848bee004",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "4ee65f4d-8401-49c1-a81f-e1aac6640b13",
+              "asset": "0",
+              "info": {
+                "editorName": "pokerchip",
+                "y": 8,
+                "scale.x": 0.4,
+                "scale.y": 0.4
+              }
+            },
+            {
+              "type": "image",
+              "id": "2e94d805-919d-4cd3-a6ab-3fd23ea4001f",
+              "asset": "1",
+              "info": {
+                "editorName": "pokerchip1",
+                "x": 40,
+                "y": 8,
+                "scale.x": 0.4,
+                "scale.y": 0.4
+              }
+            },
+            {
+              "type": "image",
+              "id": "86a0cf4c-492f-4b5d-8b14-4b03cb2687eb",
+              "asset": "2",
+              "info": {
+                "editorName": "pokerchip2",
+                "x": 80,
+                "y": 8,
+                "scale.x": 0.4,
+                "scale.y": 0.4
+              }
+            },
+            {
+              "type": "image",
+              "id": "c1320ac4-31c8-4841-9464-1ebb911d942f",
+              "asset": "3",
+              "info": {
+                "editorName": "pokerchip3",
+                "x": 120,
+                "y": 8,
+                "scale.x": 0.4,
+                "scale.y": 0.4
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "pokerchip1"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "pokerchip3"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "pokerchip2"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "pokerchip4"
+    }
+  },
+  "prefab-table": {}
+}

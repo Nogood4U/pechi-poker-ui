@@ -1,0 +1,339 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "BetState",
+    "sceneWidth": 1280,
+    "sceneHeight": 900,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT_6",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": " setTimeout(()=>{\r\n\t\t\tthis.state.start(\"Level\");\t\t\t\t\r\n\t\t\t},3000);\r\n\t\t\t"
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "pageAlignVertically": true,
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "physicsSystem": "ARCADE",
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "0dfb3a6f-ccc4-4438-8dba-b33171936530",
+    "info": {
+      "editorName": "BetState",
+      "setAll": [],
+      "children": [
+        {
+          "type": "image",
+          "id": "452196f1-70d7-41b1-a9d3-76069118d3ce",
+          "asset": "0",
+          "info": {
+            "editorName": "pokertable_bg",
+            "x": -112,
+            "y": -8,
+            "scale.x": 0.5,
+            "scale.y": 0.52
+          }
+        },
+        {
+          "type": "image",
+          "id": "1ea1ef0f-4118-46c6-a954-8a5d6c20a7ea",
+          "asset": "1",
+          "info": {
+            "editorName": "wood",
+            "x": 1253,
+            "y": -35,
+            "scale.x": 0.1
+          }
+        },
+        {
+          "type": "image",
+          "id": "9f44fa33-f0b9-4ca4-9a14-34c069037750",
+          "asset": "1",
+          "info": {
+            "editorName": "wood1",
+            "x": 1298,
+            "y": -74,
+            "rotation": 1.5707963267948966,
+            "scale.x": 0.1
+          }
+        },
+        {
+          "type": "image",
+          "id": "cf147258-4d35-4a3c-b69c-e0639effcbd9",
+          "asset": "1",
+          "info": {
+            "editorName": "wood2",
+            "x": 743,
+            "y": -74,
+            "rotation": 1.5707963267948966,
+            "scale.x": 0.1
+          }
+        },
+        {
+          "type": "image",
+          "id": "15680375-970e-42e7-87e3-80133ee65dcc",
+          "asset": "1",
+          "info": {
+            "editorName": "wood3",
+            "x": -82,
+            "y": -80,
+            "scale.x": 0.1
+          }
+        },
+        {
+          "type": "image",
+          "id": "8ad8f2eb-dd10-455b-8e77-da8a1ee94dde",
+          "asset": "1",
+          "info": {
+            "editorName": "wood4",
+            "x": 998,
+            "y": 877,
+            "rotation": 1.5707963267948966,
+            "scale.x": 0.1
+          }
+        },
+        {
+          "type": "image",
+          "id": "0e5adc10-5479-458e-84e9-1838e0085383",
+          "asset": "1",
+          "info": {
+            "editorName": "wood5",
+            "x": 1619,
+            "y": 877,
+            "rotation": 1.5707963267948966,
+            "scale.x": 0.1
+          }
+        },
+        {
+          "type": "image",
+          "id": "fbe4b329-db77-45e8-b4f5-cfd6f34aacba",
+          "asset": "2",
+          "info": {
+            "editorName": "_DSC",
+            "x": 59,
+            "y": 55,
+            "scale.x": 0.15,
+            "scale.y": 0.15,
+            "alpha": 0.5
+          }
+        },
+        {
+          "type": "text",
+          "id": "0113a44e-9140-4270-a051-c10ca70ca2d1",
+          "info": {
+            "editorName": "text",
+            "x": 232,
+            "y": 618,
+            "rotation": -0.7853981633974483,
+            "text": "Pechi",
+            "style.fontSize": 140,
+            "style.fill": "#ffffff"
+          }
+        },
+        {
+          "type": "text",
+          "id": "960ba38b-dc6e-42a8-9af0-f095c43a752c",
+          "info": {
+            "editorName": "text2",
+            "x": 672,
+            "y": 495,
+            "rotation": -0.7853981633974483,
+            "text": "Poker",
+            "style.fontSize": 140,
+            "style.fill": "#ffffff"
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "6e3391a1-2d4e-4e22-a482-33e7e3b5a6c0",
+          "asset": "3",
+          "info": {
+            "editorName": "cards",
+            "x": 647,
+            "y": 666,
+            "scale.x": 1.5,
+            "scale.y": 1.5
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "6acf8db1-3474-4662-a674-9f21b70d8fcd",
+          "asset": "4",
+          "info": {
+            "editorName": "cards1",
+            "x": 789,
+            "y": 667,
+            "scale.x": 1.5,
+            "scale.y": 1.5
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "7ed14058-fd83-4740-afe2-13145f2a1f5c",
+          "asset": "5",
+          "info": {
+            "editorName": "cards2",
+            "x": 1080,
+            "y": 666,
+            "scale.x": 1.5,
+            "scale.y": 1.5
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "ecce83eb-2258-447e-8db1-1e4612cdd939",
+          "asset": "6",
+          "info": {
+            "editorName": "cards3",
+            "x": 497,
+            "y": 666,
+            "scale.x": 1.5,
+            "scale.y": 1.5
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "41eec95c-013a-4534-ba16-a7f229158769",
+          "asset": "7",
+          "info": {
+            "editorName": "cards4",
+            "x": 936,
+            "y": 666,
+            "scale.x": 1.5,
+            "scale.y": 1.5
+          }
+        },
+        {
+          "type": "image",
+          "id": "389adb68-3ae1-431c-9255-870d3d68b70c",
+          "asset": "8",
+          "info": {
+            "editorName": "pokerchip",
+            "x": 1057,
+            "y": 420
+          }
+        },
+        {
+          "type": "image",
+          "id": "0f71dee7-4e25-47c6-b9b0-65656d275ed0",
+          "asset": "9",
+          "info": {
+            "editorName": "pokerchip1",
+            "x": 1081,
+            "y": 181
+          }
+        },
+        {
+          "type": "image",
+          "id": "5ac1056a-dfbf-4ee9-9606-c33f051a1711",
+          "asset": "10",
+          "info": {
+            "editorName": "pokerchip2",
+            "x": 1147,
+            "y": 309
+          }
+        },
+        {
+          "type": "image",
+          "id": "537af82c-7770-4a61-b1c3-2e922d7d226b",
+          "asset": "11",
+          "info": {
+            "editorName": "pokerchip3",
+            "x": 1132,
+            "y": 548
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "pokertable-bg"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "wood"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "_DSC1997"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "cards1",
+      "sprite": "22"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "cards1",
+      "sprite": "23"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "cards1",
+      "sprite": "25"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "cards1",
+      "sprite": "21"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "cards1",
+      "sprite": "24"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "pokerchip3"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "pokerchip1"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "pokerchip4"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "pokerchip2"
+    }
+  },
+  "prefab-table": {}
+}

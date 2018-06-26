@@ -1,0 +1,246 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Level",
+    "sceneWidth": 1280,
+    "sceneHeight": 900,
+    "generateOnSave": true,
+    "enableStepping": true,
+    "stepWidth": 3,
+    "stepHeight": 3,
+    "lang": "JAVA_SCRIPT_6",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      192,
+      192,
+      192
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "\r\n    this.fCardsGroup = [];\r\n\t    this.assignPosToPlayers(playersArr);\r\n\t\tthis.configureFOrPlayers(_cards14,playersArr)\r\n\r\n_group.state = this;",
+    "state_preload_after": "this.load.pack('audio', 'assets/pack.json');"
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "pageAlignVertically": true,
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "rendererRoundPixels": true,
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "8a0fc0bc-e3be-4656-9585-f855ac8ba0bb",
+    "info": {
+      "editorName": "Level",
+      "setAll": [],
+      "children": [
+        {
+          "type": "group",
+          "id": "26cfa774-1871-4bf5-bded-63f15094b1cf",
+          "info": {
+            "editorName": "cardsGroup",
+            "editorField": true,
+            "setAll": [],
+            "children": []
+          }
+        },
+        {
+          "type": "image",
+          "id": "c2518043-ddd6-49ae-84b4-5ef44ff8f27b",
+          "asset": "0",
+          "info": {
+            "editorName": "pokertable_bg",
+            "x": -108,
+            "y": -24,
+            "scale.x": 0.5,
+            "scale.y": 0.52
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "37676bbe-e2ab-45dd-bd12-5ecd3ce7b706",
+          "asset": "1",
+          "info": {
+            "editorName": "baseCard",
+            "x": 585,
+            "y": 30,
+            "scale.x": 0.7,
+            "scale.y": 0.7
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "3093b0b6-37e1-4334-b9b0-31613f52296c",
+          "asset": "1",
+          "info": {
+            "editorName": "cards12",
+            "x": 588,
+            "y": 30,
+            "scale.x": 0.7,
+            "scale.y": 0.7
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "dcf9f5cc-9ef3-42e3-9c58-57df9f5cd7c1",
+          "asset": "1",
+          "info": {
+            "editorName": "cards13",
+            "x": 591,
+            "y": 30,
+            "scale.x": 0.7,
+            "scale.y": 0.7
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "812ae7d5-e1f0-484f-a58e-994465d67945",
+          "asset": "1",
+          "info": {
+            "editorName": "cards14",
+            "x": 591,
+            "y": 30,
+            "scale.x": 0.7,
+            "scale.y": 0.7
+          }
+        },
+        {
+          "type": "text",
+          "id": "a7cc97bc-3cb0-4e9d-9620-327dfcd0b334",
+          "info": {
+            "editorName": "text",
+            "x": 573,
+            "y": 114,
+            "text": "*Dealer*",
+            "style.fontSize": 22,
+            "style.fill": "#ffffff"
+          }
+        },
+        {
+          "type": "image",
+          "id": "a48e58f3-4903-4a9a-9409-84fc6558a644",
+          "asset": "2",
+          "info": {
+            "editorName": "wood",
+            "x": 1257,
+            "y": -51,
+            "scale.x": 0.1
+          }
+        },
+        {
+          "type": "image",
+          "id": "964f305b-677b-474f-96a3-3678307ff9e4",
+          "asset": "2",
+          "info": {
+            "editorName": "wood1",
+            "x": 1302,
+            "y": -90,
+            "rotation": 1.5707963267948966,
+            "scale.x": 0.1
+          }
+        },
+        {
+          "type": "image",
+          "id": "c72de9f4-9d93-45d1-844e-41a355cd8fa9",
+          "asset": "2",
+          "info": {
+            "editorName": "wood2",
+            "x": 747,
+            "y": -90,
+            "rotation": 1.5707963267948966,
+            "scale.x": 0.1
+          }
+        },
+        {
+          "type": "image",
+          "id": "878907c1-9edb-4921-bbd1-d8f7dff00284",
+          "asset": "2",
+          "info": {
+            "editorName": "wood3",
+            "x": -78,
+            "y": -96,
+            "scale.x": 0.1
+          }
+        },
+        {
+          "type": "image",
+          "id": "ec26ab13-2427-441a-a566-ffd9370b481f",
+          "asset": "2",
+          "info": {
+            "editorName": "wood4",
+            "x": 1008,
+            "y": 876,
+            "rotation": 1.5707963267948966,
+            "scale.x": 0.1
+          }
+        },
+        {
+          "type": "image",
+          "id": "2bc00094-73e2-4e6b-9a6c-f7ab1520fa3f",
+          "asset": "2",
+          "info": {
+            "editorName": "wood5",
+            "x": 1629,
+            "y": 876,
+            "rotation": 1.5707963267948966,
+            "scale.x": 0.1
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "0",
+          "id": "137ff0c2-6b02-4405-92de-b66448e5f743",
+          "info": {
+            "editorName": "group",
+            "x": 375,
+            "y": 792
+          }
+        },
+        {
+          "type": "text",
+          "id": "6c0eb3f2-fe4d-4770-a33b-1c078ad1ee94",
+          "info": {
+            "editorName": "text1",
+            "x": 756,
+            "y": 114,
+            "text": "Basura",
+            "style.fontSize": 22,
+            "style.fill": "#ffffff"
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "pokertable-bg"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "cards1",
+      "sprite": "52"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "cards",
+      "asset": "wood"
+    }
+  },
+  "prefab-table": {"0": "WebContent/assets/groups/GameButtons.canvas"}
+}

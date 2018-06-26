@@ -1,0 +1,104 @@
+{
+  "cards": [
+    {
+      "type": "spritesheet",
+      "key": "cards1",
+      "url": "assets/sprites/cards.gif",
+      "frameWidth": 81,
+      "frameHeight": 117,
+      "frameMax": 58,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "pokertable-bg",
+      "url": "assets/textures/pokertable-bg.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "BetState",
+      "url": "assets/canvas/BetState.js"
+    },
+    {
+      "type": "image",
+      "key": "pokerchip2",
+      "url": "assets/textures/pokerchip2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pokerchip1",
+      "url": "assets/textures/pokerchip1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pokerchip3",
+      "url": "assets/textures/pokerchip3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pokerchip4",
+      "url": "assets/textures/pokerchip4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "wood",
+      "url": "assets/qubodup-light_wood.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "Chips",
+      "url": "assets/groups/Chips.js"
+    },
+    {
+      "type": "script",
+      "key": "GameButtons",
+      "url": "assets/groups/GameButtons.js"
+    },
+    {
+      "type": "image",
+      "key": "_DSC1997",
+      "url": "assets/_DSC1997.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "WinScreen",
+      "url": "assets/groups/WinScreen.js"
+    }
+  ],
+  "audio": [
+    {
+      "type": "audio",
+      "key": "card-deal",
+      "urls": ["assets/240776__f4ngy__card-flip.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "chips",
+      "urls": ["assets/201805__fartheststar__poker-chips3.wav"],
+      "autoDecode": true
+    }
+  ],
+  "atlas": [{
+    "type": "atlas",
+    "key": "buttons",
+    "textureURL": "assets/atlas/greySheet.png",
+    "atlasURL": "assets/atlas/greySheet.xml",
+    "format": "TEXTURE_ATLAS_XML_STARLING"
+  }],
+  "meta": {
+    "generated": "1529213915008",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}
